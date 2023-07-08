@@ -1,0 +1,66 @@
+.containers{
+    width: 60rem;
+
+}
+.messages-output{
+    height: 73vh;
+    border: 0.1rem solid whitesmoke;
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+}
+.message-inner {
+    margin-left: 0.4rem;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem;
+    min-width: auto;
+    max-width: 90%;
+    text-align: left;
+    min-height: 9rem;
+    font: 400 1em, sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #d1e7dd;
+}
+
+.incoming-message .message-inner {
+    background-color: #ffdab9;
+}
+
+.incoming-message {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+}
+
+.message-timestamp-left {
+    font-size: 0.85em;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.message-sender {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.message-date-indicator {
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.conversation-info {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    height: 10rem;
+}
+
+.conversation-profile-pic {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    margin: 0.8rem auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    margin-left: 0.8rem;
+}

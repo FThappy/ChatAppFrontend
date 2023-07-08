@@ -1,0 +1,8 @@
+.login__bg{
+    background-image: url(https://cdn.dribbble.com/userupload/2590655/file/original-873d0a16759f3d2315fb3fb5105c7de2.gif);
+    height: 38rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
